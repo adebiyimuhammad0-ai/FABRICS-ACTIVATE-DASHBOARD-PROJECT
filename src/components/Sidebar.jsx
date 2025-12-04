@@ -8,16 +8,21 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import LogoutIcon from '@mui/icons-material/Logout';
+import log from "../assets/Group 33690.png";
 
 export default function Sidebar() {
   return (
     <Box className="sidebar">
       <Box className="logo">
-        <Box className="mark" />
-        <Box>
+        <img
+        src={log}
+        alt="logo"
+        />
+        {/* <Box className="mark" /> */}
+        {/* <Box>
           <div style={{ fontWeight: 700 }}>Fabrics</div>
           <div className="muted small">Market</div>
-        </Box>
+        </Box> */}
       </Box>
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 3 }}>

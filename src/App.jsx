@@ -1,19 +1,67 @@
-
+import React from "react";
 import Box from "@mui/material/Box";
 import Sidebar from "./components/Sidebar";
 import TopBar from "./components/Topbar";
 import FeatureCard from "./components/FeatureCard";
 import ProductCard from "./components/ProductCard";
 import RightBar from "./components/RightBar";
-import React from "react";
+import picture1 from "./assets/picture-1.png"
+import picture2 from "./assets/picture-2.png"
+import picture3 from "./assets/picture-3.png"
+import picture4 from "./assets/picture-4.png"
+import picture5 from "./assets/picture-5.png"
+import picture6 from "./assets/picture-6.png"
+
 
 const sampleProducts = [
-  { id: 1, title: "Thick Vintage", price: "₦4300", stock: 40, img: "https://picsum.photos/id/1060/600/400" },
-  { id: 2, title: "Thick Vintage", price: "₦4300", stock: 40, img: "https://picsum.photos/id/1025/600/400" },
-  { id: 3, title: "Thick Vintage", price: "₦4300", stock: 40, img: "https://picsum.photos/id/1071/600/400" },
-  { id: 4, title: "Colourful Stack", price: "₦4300", stock: 40, img: "https://picsum.photos/id/1020/600/400" },
-  { id: 5, title: "Pattern Mix", price: "₦4300", stock: 40, img: "https://picsum.photos/id/1015/600/400" },
-  { id: 6, title: "Rolls", price: "₦4300", stock: 40, img: "https://picsum.photos/id/1035/600/400" },
+  {
+    id: 1,
+    title: "Thick Vintage",
+    price: "₦4300",
+    stock: 40,
+    img: picture1
+  },
+
+  {
+    id: 2,
+    title: "Thick Vintage",
+    price: "₦4300",
+    stock: 40,
+    img: picture2
+  },
+
+  {
+    id: 3,
+    title: "Thick Vintage",
+    price: "₦4300",
+    stock: 40,
+    img: picture3
+  },
+
+  {
+    id: 4,
+    title: "Colourful Stack",
+    price: "₦4300",
+    stock: 40,
+    img: picture4
+  },
+
+  {
+    id: 5,
+    title: "Pattern Mix",
+    price: "₦4300",
+    stock: 40,
+    img: picture5
+  },
+
+  {
+    id: 6,
+    title: "Rolls",
+    price: "₦4300",
+    stock: 40,
+    img: picture6
+  },
+
 ];
 
 export default function App() {
@@ -49,5 +97,6 @@ export default function App() {
 
       <RightBar />
     </Box>
+
   );
 }
